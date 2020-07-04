@@ -5,6 +5,7 @@
  */
 
 module.exports = {
+  pathPrefix: "/gatsby-login",
   /* Your site config here */
   siteMetadata: {
     title: `Title from siteMetadata`,
