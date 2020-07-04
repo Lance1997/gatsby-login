@@ -6,5 +6,25 @@
 
 module.exports = {
   /* Your site config here */
-  plugins: [],
+  siteMetadata: {
+    title: `Title from siteMetadata`,
+  },
+  plugins: [
+    `gatsby-plugin-emotion`,
+
+    {
+      resolve: `gatsby-plugin-typography`,
+      options: {
+        pathToConfigModule: `src/utils/typography`,
+      },
+    },
+
+    // {
+    //   resolve: 'gatsby-plugin-load-script',
+    //   options: {
+    //     src: '/password-toggle.js', // Change to the script filename
+    //   },
+    // },
+
+  ],
 }
