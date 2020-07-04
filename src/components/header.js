@@ -1,15 +1,7 @@
-import React from 'react'
-import {Link} from 'gatsby'
+import React from "react"
 
-export default function Header(props) {
+export default function Header() {
     return (
-        <div>
-            <h1>{props.title}</h1>
-            <ul>
-                <Link to="/">Home</Link>
-                <Link to="/signin">Sign In</Link>
-                <Link to="/signup">Sign Up</Link>
-            </ul>
-        </div>
+        <h1>Sir Lancelot's Corner</h1>
     );
 }
