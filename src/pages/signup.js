@@ -9,7 +9,7 @@ export default function Signup({data}) {
 
   const formSubmitHandler = (event) => {
     event.preventDefault();
-    let email = document.getElementById('email-label').value;
+    let email = document.getElementById('new-email-label').value;
     alert ("Thank you for signing up. Enjoy! "+ email);
     if (typeof window !== `undefined`) window.location.replace(`/`)
   }
